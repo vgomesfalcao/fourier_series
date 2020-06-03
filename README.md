@@ -2,10 +2,16 @@
 This code calculate fourier series and plot graphic of them
 
 ## calc_x1
-Calculates the fourier series of a square wave
+Calculates an and bn of a square wave
 
 ## calc_x2
-Calculates the fourier series of a sawtooth wave
+Calculates an and bn of a sawtooth wave
 
 ## calc_x3
-Calculates the fourier series of a heaviside function
+Calculates an and bn of a heaviside function
+
+## SF_trig.m
+Plot a graphic of trigonometric fourier series based in an and bn values
+
+## SF_exp.m
+Plot a graphic of exponencial fourier series based in cn value
