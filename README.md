@@ -11,7 +11,7 @@ Calculates an and bn of a sawtooth wave
 Calculates an and bn of a heaviside function
 
 ## SF_trig.m
-Plot a graphic of trigonometric fourier series based in an and bn values
+Plot the trigonometric fourier series based in an and bn values
 
 ## SF_exp.m
-Plot a graphic of exponencial fourier series based in cn value
+Plot the exponential series of Fourier based on the cn value
