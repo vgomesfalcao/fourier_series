@@ -1,11 +1,12 @@
-function x = calc_x1(s,m)
-if s == "b"
-    for n = 1:m
-        l(n) = (-1+((-1)^n))/(n*pi);
-    end
-else
-    for n = 1:m+1
-        l(n) = sin(2*pi)/(n*pi);
-    end
+function x = calc_x1(m)
+T = pi/2
+for n = 1:m
+    b(n) = (-1+((-1)^n))/(n*pi);
 end
-x = l;
+
+a(1)=1;
+for n = 2:m+1
+    a(n) = sin(2*pi)/(n*pi);
+end
+
+x = SF_trig(a,b,T);
